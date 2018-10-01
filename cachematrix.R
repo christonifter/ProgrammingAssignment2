@@ -1,7 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
 # makeCacheMatrix creates a list of four functions, and an environment to cache the inverse matrix in "outmat"
 #
 
@@ -21,7 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 # CacheSolve returns the inverse of matrix "x", either by retrieving the cached matrix, or with function solve()
 
 cacheSolve <- function(x, ...) {
